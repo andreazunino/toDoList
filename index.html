@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3° TECDA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="icono.png" type="image/x-icon">
+    <script src="funciones.js"></script>
+</head>
+<body style="background-image: url('fondo.avif'); background-size: cover; background-position: center; margin: 0; padding: 0;">
+   
+    <div class="container mt-5">
+        <h1 class="mb-4">Tareas 3° TECDA</h1>
+        <form id="taskForm">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="taskInput" placeholder="Agregar nueva tarea">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Agregar</button>
+                </div>
+            </div>
+        </form>
+        <ul class="list-group" id="taskList">
+            <li class="list-group-item"><input type="checkbox" class="task-checkbox"> Entregar TP ToDo List <button class="btn btn-danger btn-sm float-right delete-task ">Eliminar</button></li>
+           
+        </ul>
+    </div>
+
+    
+</body>
+</html>
